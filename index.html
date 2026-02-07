@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>For You ❤️</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts"></div>
+
+    <div class="container">
+        <div class="card fade-in">
+            <h1 id="title">Hey… 💖</h1>
+            <p id="text"></p>
+            <button id="startBtn">Continue 💫</button>
+            <div class="proposal hidden">
+                <h2>Will you be my Valentine? ❤️</h2>
+
+                <div class="btn-group">
+                    <button id="yesBtn">YES 💖</button>
+                    <button id="noBtn">NO 😒</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+    <script src="script.js"></script>
+    <div class="user-message hidden">
+        <input type="text" id="customMsg" placeholder="Type your reply..." maxlength="50">
+        <button id="sendMsg">Send 💌</button>
+    </div>
+</body>
+
+</html>
